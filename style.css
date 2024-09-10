@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(190, 202, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+body > div {
+    font-size: 2rem;
+}
+
+input {
+    outline: none;
+    padding: 6px 12px;
+    font-size: 1rem;
+}
+
+#outputID {
+    margin-top: 80px;
+}
